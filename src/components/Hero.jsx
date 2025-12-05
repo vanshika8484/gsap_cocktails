@@ -25,7 +25,7 @@ const Hero = () => {
 	 yPercent: 100,
 	 duration: 1.8,
 	 ease: "expo.out",
-	 stagger: 0.06,
+	 stagger: 0.02,
 	});
 	
 	gsap.from(paragraphSplit.lines, {
@@ -33,7 +33,7 @@ const Hero = () => {
 	 yPercent: 100,
 	 duration: 1.8,
 	 ease: "expo.out",
-	 stagger: 0.06,
+	 stagger: 0.02,
 	 delay: 1,
 	});
 	
