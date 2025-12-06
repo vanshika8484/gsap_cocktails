@@ -17,6 +17,7 @@ const Menu = () => {
 	gsap.fromTo('.details p', { yPercent: 100, opacity: 0 }, {
 	 yPercent: 0, opacity: 100, ease: 'power1.inOut'
 	})
+	
  }, [currentIndex]);
    const totalCocktails = allCocktails.length;
  
