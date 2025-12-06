@@ -134,7 +134,7 @@ const socials = [
  },
 ];
 
-const allCocktails = [
+export const allCocktails = [
  {
 	id: 1,
 	name: "Classic Mojito",
