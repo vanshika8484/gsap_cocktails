@@ -100,7 +100,7 @@ export const goodLists = [
  "Freshly muddled flavors",
 ];
 
-const storeInfo = {
+export const storeInfo = {
  heading: "Where to Find Us",
  address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
  contact: {
@@ -109,14 +109,14 @@ const storeInfo = {
  },
 };
 
-const openingHours = [
+export const openingHours = [
  { day: "Mon–Thu", time: "11:00am – 12am" },
  { day: "Fri", time: "11:00am – 2am" },
  { day: "Sat", time: "9:00am – 2am" },
  { day: "Sun", time: "9:00am – 1am" },
 ];
 
-const socials = [
+export const socials = [
  {
 	name: "Instagram",
 	icon: "/images/insta.png",
